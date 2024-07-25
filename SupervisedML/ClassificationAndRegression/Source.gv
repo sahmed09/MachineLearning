@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="cons.price.idx <= 92.868\nsamples = 100.0%\nvalue = [0.887, 0.113]", fillcolor="#e89152"] ;
+1 [label="age <= 24.5\nsamples = 6.1%\nvalue = [0.583, 0.417]", fillcolor="#f8dbc7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="cons.price.idx <= 92.29\nsamples = 0.3%\nvalue = [0.429, 0.571]", fillcolor="#cee6f8"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+18 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 18 ;
+53 [label="age <= 56.5\nsamples = 5.7%\nvalue = [0.591, 0.409]", fillcolor="#f7d8c2"] ;
+1 -> 53 ;
+54 [label="(...)", fillcolor="#C0C0C0"] ;
+53 -> 54 ;
+411 [label="(...)", fillcolor="#C0C0C0"] ;
+53 -> 411 ;
+620 [label="cons.conf.idx <= -35.45\nsamples = 93.9%\nvalue = [0.906, 0.094]", fillcolor="#e88e4d"] ;
+0 -> 620 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+621 [label="age <= 60.5\nsamples = 92.8%\nvalue = [0.912, 0.088]", fillcolor="#e88d4c"] ;
+620 -> 621 ;
+622 [label="(...)", fillcolor="#C0C0C0"] ;
+621 -> 622 ;
+1665 [label="(...)", fillcolor="#C0C0C0"] ;
+621 -> 1665 ;
+1838 [label="age <= 36.5\nsamples = 1.1%\nvalue = [0.447, 0.553]", fillcolor="#d9ecfa"] ;
+620 -> 1838 ;
+1839 [label="(...)", fillcolor="#C0C0C0"] ;
+1838 -> 1839 ;
+1888 [label="(...)", fillcolor="#C0C0C0"] ;
+1838 -> 1888 ;
+}
